@@ -1,0 +1,29 @@
+h1, h2 {
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 35px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+body {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-custom {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 20px;
+}
+
