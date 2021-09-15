@@ -4,6 +4,13 @@ h1, h2 {
     font-size: 35px;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+}
+
 header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -45,4 +52,9 @@ p {
 
 .white-pg {
     background-color: white;
+}
+
+.txt-black {
+    color: black;
+    margin-top: 50px;
 }

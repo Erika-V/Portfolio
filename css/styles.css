@@ -44,4 +44,20 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+.centered {
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-bg {
+    background: rgba(0,0,0, 0.5);
+    margin-top: 50px;
+    Padding: 20px;
+    border-radius: 7px;
+}
+
+
+
+
 
