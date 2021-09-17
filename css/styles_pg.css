@@ -58,3 +58,20 @@ p {
     color: black;
     margin-top: 50px;
 }
+
+.card-circle {
+    background: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card-1 {
+    background-image:url(../images/pacsun\ fall\ lower\ res.png)
+}
+
+.down {
+    margin-top: 100px;
+}
