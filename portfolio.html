@@ -54,39 +54,24 @@
             </div>
         </div>
 
-        <div class="card-deck mb-5">
-            <div class="card-img col-2">
-                <img class="card-img-top" src="images/pacsun fall lower res.png" alt="Fall clothing being modeled.">
-                <div class="card-img-overlay">
-                    <div class="card-circle mx-auto mt-5">
-                    <h3 class="pt-4">AD</h3>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="column">
+              <img src="images/pacsun-fall.jpg" alt="" onclick="myFunction(this);">
             </div>
-            <div class="card-img col-2">
-                <img class="card-img-top" src="images/foundation ad1 white lower res.png" alt="Group of people posing for the camera.">
-                <div class="card-img-overlay">
-                    <div class="card-circle mx-auto mt-5">
-                    <h3 class="pt-4">AD</h3>
-                    </div>
-                </div>
+            <div class="column">
+              <img src="images/foundation.jpg" alt="Snow" onclick="myFunction(this);">
             </div>
-            <div class="card-img col-2">
-                <img class="card-img-top" src="images/Dracula-poster.jpg" alt="Vector drawing of dracula licking blood over a castle.">
-                <div class="card-img-overlay">
-                    <div class="card-circle mx-auto mt-5">
-                    <h3 class="pt-4">AD</h3>
-                    </div>
-                </div>
+            <div class="column">
+              <img src="images/Dracula-poster-1.jpg" alt="Mountains" onclick="myFunction(this);">
             </div>
-            <div class="card-img col-2">
-                <img class="card-img-top" src="images/fine art.jpg" alt="Woman taking her face off and raster drawings coming out.">
-                <div class="card-img-overlay">
-                    <div class="card-circle mx-auto mt-5">
-                    <h3 class="pt-4">AD</h3>
-                    </div>
-                </div>
+            <div class="column">
+              <img src="images/fine-art-1.jpg" alt="Lights" onclick="myFunction(this);">
             </div>
+        </div>
+
+        <div class="gallery-container down">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img class="center" id="expandedImg" style="width:50%">
         </div>
         
         <hr />
@@ -94,6 +79,21 @@
             <div class="col4 col-sm-6">
                 <h1 class="txt-black">UX/UI</h1>
             </div>
+        </div>
+        <div class="tab col-sm-12">
+            <button class="tablinks" onclick="openApp(event, 'Skyrim')" id="defaultOpen">Skyrim Library</button>
+            <button class="tablinks" onclick="openApp(event, 'Fresh')">Freshly Dropped</button>
+        </div>
+
+        <div id="Skyrim" class="tabcontent">
+            <h3>Skyrim Library</h3>
+            <p class="txt-black">Screen recording of a UX/UI design project in college. Its an app that allows you to be able to read all the lore books in one place. It makes it easier to read than giant wiki pages or scavenging in the game.</p>
+            <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/os77KD_CRvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="Fresh" class="tabcontent">
+            <h3>Freshly Dropped</h3>
+            <p class="txt-black">Senior Final Project. Create a app for a fictional company within a week. The company was another version of Hello Fresh and the app was a way for people to shop for recipes and keep a log of their favorites.</p>
+            <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/5sWvT-BHsac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 
@@ -103,6 +103,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
 </body>
 
 </html>
